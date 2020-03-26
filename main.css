@@ -25,3 +25,13 @@ a:visited {
         font-size: 26px;
         color: #8a8690;
 }
+
+::-moz-selection {
+  color: white;
+  background: #efb6b5;
+}
+
+::selection {
+  color: white;
+  background: #efb6b5;
+}
