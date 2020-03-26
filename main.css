@@ -3,3 +3,25 @@ img {
 	height: 504px;
 	width: 378px;
 }
+
+body {
+        background-color: #99ced4;
+}
+
+#index, #resume, #about .bodytxt {
+	font: roboto;
+	font-size: 20px;
+	color: #8a8690;
+}
+
+a {
+	font: roboto;
+	font-size: 26px;
+	color: #8a8690;
+}
+
+a:visited {
+        font: roboto;
+        font-size: 26px;
+        color: #8a8690;
+}
