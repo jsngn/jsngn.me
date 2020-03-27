@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-.mainport {
+.mainport, .aboutport {
 	display: block;
 	padding-top: 50px;
 	padding-bottom: 15px;
@@ -15,9 +15,15 @@
 	text-align: center;
 }
 
-img {
-	height: 504px;
-	width: 378px;
+.mainport img {
+	height: 20.5%;
+	width: 20.5%;
+	border: 5px solid #f6f6f6;
+}
+
+.aboutport img {
+	height: 35%;
+	width: 35%;
 	border: 5px solid #f6f6f6;
 }
 
@@ -42,7 +48,7 @@ body {
 	padding-top: 102px;
 }
 
-.mainbody {
+.mainbody, .aboutbody {
 	display: block;
         margin: 0px;
         width: 100%;
