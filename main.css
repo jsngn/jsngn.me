@@ -1,3 +1,11 @@
+.header {
+	margin: 0px;
+	padding: 20px 28px;
+	width: 100%;
+  	background: #f6f6f6;
+	text-align: center;
+}
+
 img {
 	display: block;
 	height: 504px;
@@ -5,33 +13,41 @@ img {
 }
 
 body {
+	margin: 0px;
         background-color: #99ced4;
 }
 
 #index, #resume, #about .bodytxt {
-	font: roboto;
+	font-family: Verdana, Geneva, sans-serif;
 	font-size: 20px;
 	color: #8a8690;
 }
 
+.sticky {
+        position: fixed;
+        top: 0;
+        width = 100%;
+}
+
+.sticky + .bodytxt {
+	padding-top: 102px;
+}
+
 a {
+	padding-left: 5px;
+	padding-right: 5px;
 	position: relative;
-	font: roboto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
 	font-size: 26px;
 	color: #8a8690;
 	text-decoration: none;
 }
 
 a:visited {
-        font: roboto;
+        font-family: Verdana, Geneva, sans-serif;
         font-size: 26px;
         color: #8a8690;
-}
-
-a:hover {
-	font: roboto;
-        font-size: 26px;
-        color: #4a6e9d;
 }
 
 a:before {
@@ -41,7 +57,7 @@ a:before {
  	height: 2px;
  	bottom: 0;
   	left: 0;
-  	background-color: #efb6b5;
+ 	background-color: #efb6b5;
   	visibility: hidden;
   	-webkit-transform: scaleX(0);
   	transform: scaleX(0);
