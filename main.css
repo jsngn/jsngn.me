@@ -24,6 +24,7 @@
 body {
 	margin: 0px;
         background-color: #99ced4;
+	text-align: center;
 }
 
 #index, #resume, #about .bodytxt {
@@ -69,7 +70,7 @@ body {
 }
 
 .header a {
-	margin: 20px;
+	margin: 1.25%;
 	position: relative;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 20px;
@@ -79,7 +80,7 @@ body {
 
 .header a:visited {
         font-family: Verdana, Geneva, sans-serif;
-        font-size: 26px;
+        font-size: 20px;
         color: #8a8690;
 }
 
@@ -115,6 +116,5 @@ body {
 }
 
 html, body {
-    max-width: 100%;
     overflow: hidden;
 }
