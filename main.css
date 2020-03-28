@@ -35,7 +35,7 @@ body {
 #index, #resume, #about .bodytxt {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 20px;
-	color: #8a8690;
+	color: #f0f0f0;
 }
 
 .sticky {
@@ -55,6 +55,14 @@ body {
         text-align: center;
 }
 
+.aboutbody a {
+	font-family: Verdana, Geneva, sans-serif;
+	position: relative;
+	font-size: 20px;
+        color: #4a6e9d;
+	text-decoration: none;
+}
+
 .header a {
 	margin: 20px;
 	position: relative;
@@ -70,7 +78,7 @@ body {
         color: #8a8690;
 }
 
-.header a:before {
+a:before {
 	content: "";
   	position: absolute;
   	width: 100%;
@@ -85,7 +93,7 @@ body {
   	transition: all 0.3s ease-in-out 0s;
 }
 
-.header a:hover:before {
+a:hover:before {
 	visibility: visible;
   	-webkit-transform: scaleX(1);
  	transform: scaleX(1);
