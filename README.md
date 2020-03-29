@@ -1,6 +1,6 @@
 # jsngn.me
 
-I made [this website](jsngn.me/) as a way to increase my online presence and to re-introduce myself to web dev.
+I made [this website](http://jsngn.me/) as a way to increase my online presence and to re-introduce myself to web dev.
 
 ## Directories and Files
 
