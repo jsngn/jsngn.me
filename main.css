@@ -8,6 +8,7 @@
 	text-align: center;
 }
 
+/* Container of portrait img in index */
 .mainport {
 	display: block;
 	padding-top: 55px;
@@ -17,6 +18,7 @@
 	text-align: center;
 }
 
+/* Actual portrait img */
 .mainport img {
 	height: 20.5%;
 	width: 20.5%;
@@ -35,6 +37,7 @@ body {
 	color: #f0f0f0;
 }
 
+/* Sticky header, for mobile for now */
 .sticky {
         position: fixed;
         top: 0;
@@ -86,6 +89,7 @@ body {
         color: #8a8690;
 }
 
+/* Animated underline in header links upon hover */
 .header a:before {
 	content: "";
   	position: absolute;
@@ -107,6 +111,7 @@ body {
  	transform: scaleX(1);
 }
 
+/* Highlight turns text white & highlight pink */
 ::-moz-selection {
   color: white;
   background: #efb6b5;
@@ -117,6 +122,7 @@ body {
   background: #efb6b5;
 }
 
+/* Prevent scroll */
 html, body {
     overflow: hidden;
 }

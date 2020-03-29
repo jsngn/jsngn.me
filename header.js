@@ -1,6 +1,7 @@
+/* Makes header sticky upon scroll, right now only needed for mobile */
 window.onscroll = function() {stickHeader()};
 
-var header = document.getElementById("stickyHeader");
+var header = document.getElementById("stickyheader");
 
 var sticky = header.offsetTop;
 
